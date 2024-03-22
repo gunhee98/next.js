@@ -1,7 +1,10 @@
-export default function Home() {
+import Home from "@/app/(afterLogin)/home/page";
+import TweetModal from "../../@modal/(.)compose/tweet/page";
+
+export default function Page() {
   return (
-    <main>
-      게시글
-    </main>
-  )
+    <>
+      <TweetModal />
+    </>
+  );
 }
